@@ -297,3 +297,32 @@
     opacity: 0.6;
     line-height: 2.05em;
 }
+
+[data-reveal="left"] { clip-path: inset(0 100% 0 0);}
+[data-reveal="left"].revealed {
+    animation: reveal-left 1.3s cubic-bezier(0.17, 0.97, 0.38, 1) 0.5s forwards;
+}
+
+@keyframes reveal-left {
+    0% {
+        clip-path: inset(0 100% 0 0);
+    }100% {
+        clip-path: inset(0 0 0 0);
+    }
+}
+/* RIGHT REVEAL */
+[data-reveal="right"] {clip-path: inset(0 0 0 100%);
+}
+[data-reveal="right"].revealed {
+    animation: reveal-right 1.3s cubic-bezier(0.17, 0.97, 0.38, 1) 0.3s forwards;
+}
+
+@keyframes reveal-right {
+    0% { clip-path: inset(0 0 0 100%); }
+    100% { clip-path: inset(0 0 0 0); }
+}
+.img-box .img {
+    transform: scale(1.0);
+    transition: 1.2s cubic-bezier(0.17, 0.97, 0.38, 1)
+}
+.img-box.revealed .img {transform: scale(1);}
