@@ -267,7 +267,6 @@
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 20px;
-
     margin-top: 25px;
     background-color: hsl(0,0%,12%);
     color: seashell;
@@ -278,6 +277,7 @@
 .img-box {
     height: 800px;
     overflow: hidden;
+    display: flex;
 }
 
 .img {
@@ -326,3 +326,20 @@
     transition: 1.2s cubic-bezier(0.17, 0.97, 0.38, 1)
 }
 .img-box.revealed .img {transform: scale(1);}
+/* video section */
+.video-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;  /* center horizontally */
+    align-items: center;      /* center vertically */
+    margin-top: 40px;
+}
+.video-container {
+    text-align: center;
+}
+video {
+    max-width: 90%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}

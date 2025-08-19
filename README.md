@@ -3,6 +3,8 @@
 ## Description
 This project showcases a professional CSS design featuring an infinite 3D rotating image loop slider. The slider displays multiple images arranged in a circular carousel that continuously rotates, creating a visually appealing and dynamic effect. The design also includes a content section with a prominent heading, author name, and a motivational quote.
 
+## Project Preview - https://evyvishal.github.io/OnePiece/
+
 ## Features
 - Infinite 3D rotating image loop using CSS animations and transforms
 - Smooth and continuous rotation with perspective effect
