@@ -32,7 +32,7 @@
             <div class="item" style = "--position: 4"><img src="images/✰Zoro.jpg" alt=""/></div>
             <div class="item" style = "--position: 5"><img src="images/nami3.jpg" alt=""/></div>
             <div class="item" style = "--position: 6"><img src="images/usop3.jpg" alt=""/></div>
-            <div class="item" style = "--position: 7"><img src="images/sanji2.jpg" alt=""/></div>
+            <div class="item" style = "--position: 7"><img src="images/sanji5.jpg" alt=""/></div>
             <div class="item" style = "--position: 8"><img src="images/copper.jpg" alt=""/></div>
             <div class="item" style = "--position: 9"><img src="images/Nico Robin.jpg" alt=""/></div>
             <div class="item" style = "--position: 10"><img src="images/jinbe2.jpg" alt=""/></div>
@@ -94,6 +94,75 @@
         </p>
         </div>
     </section>
+
+    <!-- Sliding Image Carousel -->
+    <section class="carousel-section">
+        <div class="carousel-container">
+            <div class="carousel">
+                <div class="carousel-track">
+                    <!-- Slide 1 with 3 images -->
+                    <div class="carousel-slide active">
+                        <div class="image-group">
+                            <img src="images/luffyBounty1.jpg" alt="Monkey D. Luffy">
+                            <img src="images/zoroBounty.jpg" alt="Roronoa Zoro">
+                            <img src="images/namiBounty.jpg" alt="Nami">
+                        </div>
+                    </div>
+                    <!-- Slide 2 with 3 images -->
+                    <div class="carousel-slide">
+                        <div class="image-group">
+                            <img src="images/sanjiBounty.jpg" alt="Sanji">
+                            <img src="images/choperBounty.jpg" alt="Tony Tony Chopper">
+                            <img src="images/RobinBounty.jpg" alt="Nico Robin">
+                        </div>
+                    </div>
+                    <!-- Slide 3 with 3 images -->
+                    <div class="carousel-slide">
+                        <div class="image-group">
+                            <img src="images/frankyBounty.jpg" alt="Franky">
+                            <img src="images/brookBounty.jpg" alt="Brook">
+                            <img src="images/jinbeBounty.jpg" alt="Jinbe">
+                        </div>
+                    </div>
+                    <!-- Slide 4 with 3 images -->
+                    <div class="carousel-slide">
+                        <div class="image-group">
+                            <img src="images/lordusoppBounty.jpg" alt="Usopp">
+                            <img src="images/ShankBounty.jpg" alt="Shanks">
+                            <img src="images/DouglasBulletBounty.jpg" alt="Douglas Bullet">
+                        </div>
+                    </div>
+                    <!-- Slide 5 with 3 images -->
+                    <div class="carousel-slide">
+                        <div class="image-group">
+                            <img src="images/Rocks D Xebec Wanted Poster.jpg" alt="Rocks D. Xebec">
+                            <img src="images/BoaHancoikBounty.jpg" alt="Boa Hancock">
+                            <img src="images/YamotoBountt.jpg" alt="Yamato">
+                        </div>
+                    </div>
+                    <!-- Slide 6 with 3 images -->
+                    <div class="carousel-slide">
+                        <div class="image-group">
+                            <img src="images/LawBounty.jpg" alt="Trafalgar D. Water Law">
+                            <img src="images/kidBounty.jpg" alt="Eustass Kid">
+                            <img src="images/Killerbount.jpg" alt="Killer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-btn carousel-btn--prev">‹</button>
+            <button class="carousel-btn carousel-btn--next">›</button>
+            <div class="carousel-nav">
+                <button class="carousel-indicator active"></button>
+                <button class="carousel-indicator"></button>
+                <button class="carousel-indicator"></button>
+                <button class="carousel-indicator"></button>
+                <button class="carousel-indicator"></button>
+                <button class="carousel-indicator"></button>
+            </div>
+        </div>
+    </section>
+
     <!--
     <div class="video-wrapper">
     <div class="video-container">
@@ -104,6 +173,43 @@
     </div>
     </div>
     -->
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <!-- Comment Section -->
+        <div class="comment-section">
+            <div class="comment-container">
+                <h3 class="comment-title">Leave a Comment</h3>
+                <form class="comment-form" id="commentForm">
+                    <div class="form-group">
+                        <input type="text" id="commentName" placeholder="Your Name" required class="comment-input">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="commentText" placeholder="Your Comment..." rows="4" required class="comment-textarea"></textarea>
+                    </div>
+                    <button type="submit" class="comment-submit">Post Comment</button>
+                </form>
+                
+                <div class="comments-display" id="commentsDisplay">
+                    <h4 class="comments-title">Recent Comments</h4>
+                    <div class="comments-list" id="commentsList">
+                        <!-- Comments will be displayed here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-container">
+            <div class="footer-left">
+                <p>&copy; 2024 Vishal Thakur. All rights reserved.</p>
+            </div>
+            <div class="footer-right">
+                <a href="#" class="footer-link">Portfolio</a>
+                <a href="https://github.com/evyvishal" class="footer-link">GitHub</a>
+                <a href="https://www.linkedin.com/in/evyvishal" class="footer-link">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
